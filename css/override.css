@@ -76,6 +76,20 @@ Module styles
 	padding: 10px;
 }
 
+.download-link, .navbar-brand {
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+
+.download-link > :first-child{
+	margin-right: 10px;
+}
+
+.navbar-brand > :first-child {
+	margin-right: 5px;
+}
+
 .form-label {text-align: right;}
 
 footer p {margin: 0;}
