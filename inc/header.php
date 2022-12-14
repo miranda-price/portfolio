@@ -55,30 +55,3 @@
   </div>
 </nav>
 	</header>
-
-	<div class="navbar-fix"></div>
-	<div class="row page-top align-items-center">
-		<img class="col-md-2 img-fluid justify-content-center" id="headshot" src="content/headshot.png" width="80%" style="border-radius: 50%;">
-		<div class="col-md-8">
-			<h1>About Me</h1>
-			<p>I am an aspiring UX/UI designer with experience in front-end web design and development.  I have a broad educational background that includes many types of digital design and the industry-standard iterative design process for designing digital applications.<!--  I value learning opportunities and challenges and pride myself on my ability to quickly learn new technologies and adapt in the face of challenging situations.--></p>
-		</div>
-	</div>
-
-	<h2 class="row-home">See My Work!</h2>
-	<container class = "tile">
-			<a class="shadow-lg bg-body rounded justify-content-center tile-web" href = "web.html">
-				<h2>Web Development</h2>
-			</a>
-			<a class="shadow-lg bg-body rounded justify-content-center tile-uxui" href = "uxui.html">
-				<h2 class="justify-content-center">UX/UI Design</h2>
-			</a>
-	</container>
-	
-	</div> <!--container-->
-
-<footer>
-	<div class = "container"><p>Site Created by Miranda Price - Copyright 2022</p></div>
-</footer>
-
-</html>
