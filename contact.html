@@ -59,6 +59,47 @@
       </nav>
 
     <body>
+        <div class="row container">
+            <div class="col-md-4">
+                <h1>Contact</h1>
+                <p>Connect with me on LinkedIn and become a part of my network or follow me on GitHub to see my latest work.  I am no longer seeking work for the summer.  To speak with me about freelance commissions in the fall, post-grad job openings, or just say hello, fill out the form to the right to send me an email.</p>	
+            </div>
+            
+            <form class="col-md-8 shadow-lg bg-body rounded" method="" action="" class="full-width">
         
+                <legend>Email me:</legend>
+                <br>
+        
+                <div class="row form-row">
+                    <label class="col-md-2 form-label" id ="floatingInput" for="name">First Name:</label>
+                    <input class="col-md-4 form-content" type="text" name="name" id="name">
+                        
+                    <label class="col-md-2 form-label" id ="floatingInput" for="last">Last Name:</label>
+                    <input class="col-md-4 form-content" type="text" name="last" id="last">
+                </div> 
+        
+                <div class="row">
+                    <label class="col-md-2 form-label" id ="floatingInput" for="email">Email:</label>
+                    <input class="col-md-4 form-content" type="text" name="email" id="email">
+                        
+                    <label class="col-md-2 form-label" id ="floatingInput" for="subject">Subject:</label>
+                    <select class="col-md-4 form-select-sm" name="subject" id="subject">
+                        <option value="blank"></option>
+                        <option value="freelance">Freelance</option>
+                        <option value="post_grad_job">Post-Grad Opportunity</option>
+                        <option value="chat">Say Hello!</option>
+                    </select>
+                </div> 
+                    
+                <label class="row form-label" id ="floatingInput" for="message">Message:</label>
+                <div class="row"><textarea class="col-md-12 justify-content-center" name="message" id="message"></textarea></div>
+                
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <input class="col-md-4 btn btn-dark" style="background-color: #671a6f;" type="submit" value="Send!">
+                    <div class="col-md-4"></div>
+                </div>
+            </form> 
+            </div>
     </body>
 </html>
