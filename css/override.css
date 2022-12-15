@@ -82,6 +82,15 @@ Module styles
 	justify-content: right;
 }
 
+.contact {
+	display: flex;
+	justify-content: center;
+}
+
+.contact > * {
+	width: auto;
+}
+
 .download-link > :first-child{
 	margin-right: 10px;
 }
