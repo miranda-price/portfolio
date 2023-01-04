@@ -1,14 +1,61 @@
-html > * {
-    background-color: #671a6f;
-    color: white;
+@keyframes design-opacity {
+    0%   {opacity: 100%;}
+    32%  {opacity: 100%;}
+    33%  {opacity: 40%;}
+    100%  {opacity: 40%;}
 }
 
-h1, h2 {color: white}
+@keyframes develop-opacity {
+    0%   {opacity: 40%;}
+    32%  {opacity: 40%;}
+    33%  {opacity: 100%;}
+    65%  {opacity: 100%;}
+    66%  {opacity: 40%;}
+    100%  {opacity: 40%;}
+}
 
-h1 {font-size: 128px;}
+@keyframes access-opacity {
+    0%   {opacity: 40%;}
+    65%  {opacity: 40%;}
+    66%  {opacity: 100%;}
+    100%  {opacity: 100%;}
+}
 
-footer {
-    position: absolute;
-    bottom: 5px;
-    left: 5px;
+.design {
+    animation-name: design-opacity;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.develop {
+    animation-name: develop-opacity;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.access {
+    animation-name: access-opacity;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+html > * {
+    background: rgb(129,56,137);
+    background: linear-gradient(75deg, rgba(129,56,137,0.8) 0%, rgba(137,53,190,0.8) 38%, rgba(245,235,245,1) 100%); 
+}
+
+.landing {
+    height: 90vh;
+}
+
+h1, h2, h3 {color: #000000}
+
+.navbar-fix {padding-bottom: 60px;}
+
+footer, .row-home{
+    margin-top: 2vh;
+	border: none;
 }
