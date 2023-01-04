@@ -42,6 +42,8 @@
     animation-iteration-count: infinite;
 }
 
+.values > * {margin-bottom: 10px;}
+
 html > * {
     background: rgb(129,56,137);
     background: linear-gradient(75deg, rgba(129,56,137,0.8) 0%, rgba(137,53,190,0.8) 38%, rgba(245,235,245,1) 100%); 
@@ -51,9 +53,13 @@ html > * {
     height: 90vh;
 }
 
-h1, h2, h3 {color: #000000}
+h1, h2, h3, h4 {color: #000000}
 
 .navbar-fix {padding-bottom: 60px;}
+
+.experience {
+    align-items: baseline;
+}
 
 footer, .row-home{
     margin-top: 2vh;
