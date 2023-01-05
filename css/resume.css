@@ -1,0 +1,36 @@
+h2 {
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #671a6f;
+}
+
+h3, h4, h5 {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.row {
+    align-items: baseline;
+}
+
+.work-header > * {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.work-loc {
+    text-align: right;
+    padding-right: 25px;
+}
+
+.work-date, .work-loc {font-size: 18px;}
+
+.course h3 {
+    font-size: 24px;
+}
+
+.course h4 {
+    font-size: 18px;
+}
