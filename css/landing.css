@@ -21,9 +21,18 @@
     100%  {opacity: 100%;}
 }
 
-a {color: black;}
+#headshot {
+    border-radius: 50%;
+    box-shadow: 5px 5px;
+}
 
-a:hover {color: #671a6f;}
+.highlight {
+    text-align: center;
+}
+
+a {color: #e5b9eb;}
+
+a:hover {color: #b46abd;}
 
 .design {
     animation-name: design-opacity;
@@ -49,15 +58,14 @@ a:hover {color: #671a6f;}
 .values > * {margin-bottom: 10px;}
 
 html > * {
-    background: rgb(129,56,137);
-    background: linear-gradient(75deg, rgba(147, 67, 156, 0.8) 0%, rgba(168, 84, 220, 0.8) 38%, rgba(245,235,245,1) 100%); 
+    background: #671a6f;
 }
 
 .landing {
     height: 90vh;
 }
 
-h1, h2, h3, h4 {color: #000000}
+h1, h2, h3, h4, p {color: #fff}
 
 .navbar-fix {padding-bottom: 60px;}
 
@@ -68,4 +76,5 @@ h1, h2, h3, h4 {color: #000000}
 footer, .row-home{
     margin-top: 2vh;
 	border: none;
+    color: #b46abd;
 }
