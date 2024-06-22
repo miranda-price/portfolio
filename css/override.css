@@ -124,6 +124,29 @@ img.shadow {padding: 0px;}
 
 .icon-nav {margin: 10px;}
 
+.modal {max-width: 100vw;}
+
+.modal-content, .modal-body {
+	padding: 5px;
+  	margin: auto;
+ 	width: max-content;
+	height: max-content;
+}
+
+.modal-dialog {
+	margin: auto;
+}
+
+.modal-body img, .modal-dialog {
+	max-width: 100vw;
+	padding: 0;
+}
+
+.modal-body img {
+	
+	max-height: 85vh;
+}
+
 /* *****************
 State styles
 ***************** */

@@ -135,7 +135,7 @@
 			
 		</div>
 		<div class="col-md-6">
-			<img class="shadow bg-body rounded" src="content/5-whys.jpg" height="85%" width="100%">
+			<img class="shadow bg-body rounded" src="content/5-whys.jpg" height="85%" width="100%" onclick="document.getElementById('enlarged-img').src = this.src" data-bs-toggle="modal" data-bs-target="#enlarge-img-box">
 			<p><em>5 Whys exercise to find root of accessibility issue</em></p>
 		</div>
 	</div>
@@ -150,16 +150,16 @@
 		<div class="col-md-8">
 			<div class="row">
 				<div class="col-md-6">
-					<img class="shadow bg-body rounded" src="content/pitch-problem.jpg" height="85%" width="100%">
+					<img class="shadow bg-body rounded" src="content/pitch-problem.jpg" height="85%" width="100%" onclick="document.getElementById('enlarged-img').src = this.src" data-bs-toggle="modal" data-bs-target="#enlarge-img-box">
 					<p><em>Statistics on problem from our pitch deck</em></p>
 				</div>
 				<div class="col-md-6">
-					<img class="shadow bg-body rounded" src="content/pitch-solution.jpg" height="85%" width="100%">
+					<img class="shadow bg-body rounded" src="content/pitch-solution.jpg" height="85%" width="100%" onclick="document.getElementById('enlarged-img').src = this.src" data-bs-toggle="modal" data-bs-target="#enlarge-img-box">
 					<p><em>Solution slide from our pitch deck</em></p>	
 				</div>
 			</div>
 			<div class="row">
-				<img class="shadow bg-body rounded" src="content/ouraccess-storyboard.jpg" height="85%" width="100%">
+				<img class="shadow bg-body rounded" src="content/ouraccess-storyboard.jpg" height="85%" width="100%" onclick="document.getElementById('enlarged-img').src = this.src" data-bs-toggle="modal" data-bs-target="#enlarge-img-box">
 				<p><em>Storyboard from our pitch deck</em></p>
 			</div>
 		</div>
@@ -173,7 +173,7 @@
 			<p>Our team also met with higher-ups in facilities for our campus to learn about how the ticketing system for repairs works and how our site's report feature can work with the existing system.</p>
 		</div>
 		<div class="col-md-7">
-			<img class="shadow bg-body rounded" src="content/survey-analysis.jpg" height="85%" width="100%">
+			<img class="shadow bg-body rounded" src="content/survey-analysis.jpg" height="85%" width="100%" onclick="document.getElementById('enlarged-img').src = this.src" data-bs-toggle="modal" data-bs-target="#enlarge-img-box">
 			<p><em>Survey analysis on questions about push door buttons</em></p>			
 		</div>
 	</div>
@@ -186,7 +186,7 @@
 			<p>We observed our peers testing our prototype and made notes on what elements of the interface were confusing and how we could improve our site's user experience.</p>
 		</div>
 		<div class="col-md-8">
-			<img class="shadow bg-body rounded" src="content/ouraccess-lowfi.jpg" height="85%" width="100%">
+			<img class="shadow bg-body rounded" src="content/ouraccess-lowfi.jpg" height="85%" width="100%" onclick="document.getElementById('enlarged-img').src = this.src" data-bs-toggle="modal" data-bs-target="#enlarge-img-box">
 			<p><em>Low-fidelity prototype map input UI</em></p>			
 		</div>
 	</div>
@@ -200,7 +200,7 @@
 			<p>Our team began collecting volunteers to do assess accessibility of each building later in the semester.</p>		
 		</div>
 		<div class="col-md-6">
-			<img class="shadow bg-body rounded" src="content/ouraccess-demo.jpg" height="85%" width="100%">
+			<img class="shadow bg-body rounded" src="content/ouraccess-demo.jpg" height="85%" width="100%" onclick="document.getElementById('enlarged-img').src = this.src" data-bs-toggle="modal" data-bs-target="#enlarge-img-box">
 			<p><em>Customized accessible route on demo site</em></p>
 		</div>
 	</div>
@@ -215,7 +215,7 @@
 			
 		</div>
 		<div class="col-md-6">
-			<img class="shadow bg-body rounded" src="content/ouraccess-hi-fi.png" height="85%" width="100%">
+			<img class="shadow bg-body rounded" src="content/ouraccess-hi-fi.png" height="85%" width="100%" onclick="document.getElementById('enlarged-img').src = this.src" data-bs-toggle="modal" data-bs-target="#enlarge-img-box">
 			<p><em>Prototype page of map displaying route directions</em></p>
 		</div>
 	</div>
@@ -230,11 +230,11 @@
 			
 		</div>
 		<div class="col-md-4">
-			<img class="shadow bg-body rounded" src="content/ouraccess-audit-info.png" height="85%" width="100%">
+			<img class="shadow bg-body rounded" src="content/ouraccess-audit-info.png" height="85%" width="100%" onclick="document.getElementById('enlarged-img').src = this.src" data-bs-toggle="modal" data-bs-target="#enlarge-img-box">
 			<p><em>Data collection instructions for volunteers</em></p>
 		</div>
 		<div class="col-md-3">
-			<img class="shadow bg-body rounded" src="content/ouraccess-poster.png" height="85%" width="100%">
+			<img class="shadow bg-body rounded" src="content/ouraccess-poster.png" height="85%" width="100%" onclick="document.getElementById('enlarged-img').src = this.src" data-bs-toggle="modal" data-bs-target="#enlarge-img-box">
 			<p><em>Promotional poster design</em></p>
 		</div>
 	</div>
@@ -249,11 +249,20 @@
 			
 		</div>
 		<div class="col-md-7">
-			<img class="shadow bg-body rounded" src="content/ouraccess-site.png" height="85%" width="100%">
+			<img class="shadow bg-body rounded" src="content/ouraccess-site.png" height="85%" width="100%" onclick="document.getElementById('enlarged-img').src = this.src" data-bs-toggle="modal" data-bs-target="#enlarge-img-box">
 			<p><em>Desktop view of accessibility map</em></p>
 		</div>
 	</div>
-
+	<div class="modal fade" id="enlarge-img-box" tabindex="-1" aria-labelledby="font-modal" aria-hidden="true" aria-label="pop-up box of enlarged image">
+		<div class="modal-dialog  modal-dialog-centered modal-lg modal-dialog-scrollable">
+		  <div class="modal-content">
+			<div class="modal-body" role="presentation">
+				<img id= "enlarged-img" src="" alt="enlarged image">
+			</div>
+		  </div>
+		</div>
+	  </div>   
+	</div>
 	
 	</div> <!--container-->
 

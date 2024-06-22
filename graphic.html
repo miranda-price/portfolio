@@ -91,13 +91,13 @@
 		</div>
 		<div class="col-md-4">
 			<div class="row">
-				<img src = "content/ouraccess-promo.png" style="max-height:400px;" alt = "inspiration board showing potential palettes and sketches for the poster design and related stock photos related to the topic of chronic illness"></a>
+				<img src = "content/ouraccess-promo.png" style="max-height:400px;" alt = "inspiration board showing potential palettes and sketches for the poster design and related stock photos related to the topic of chronic illness" onclick="document.getElementById('enlarged-img').src = this.src" data-bs-toggle="modal" data-bs-target="#enlarge-img-box"></a>
 			</div>
 		</div>
         
 		<div class="col-md-4">
 			<div class="row">
-				<img src = "content/ouraccess-poster.png" style="max-height:400px;" alt = "poster showing 10 people under a magnifying glass, revealing 6 people to be a different color to represent that 6 out of 10 people have a chronic illness."></a>
+				<img src = "content/ouraccess-poster.png" style="max-height:400px;" alt = "poster showing 10 people under a magnifying glass, revealing 6 people to be a different color to represent that 6 out of 10 people have a chronic illness." onclick="document.getElementById('enlarged-img').src = this.src" data-bs-toggle="modal" data-bs-target="#enlarge-img-box"></a>
 			</div>
 		</div>
 	</div>
@@ -113,13 +113,13 @@
 		</div>
 		<div class="col-md-5">
 			<div class="row">
-				<img src = "content/Inspiration_Board.png" style="max-height:400px;" alt = "inspiration board showing potential palettes and sketches for the poster design and related stock photos related to the topic of chronic illness"></a>
+				<img src = "content/Inspiration_Board.png" style="max-height:400px;" alt = "inspiration board showing potential palettes and sketches for the poster design and related stock photos related to the topic of chronic illness" onclick="document.getElementById('enlarged-img').src = this.src" data-bs-toggle="modal" data-bs-target="#enlarge-img-box"></a>
 			</div>
 		</div>
         
 		<div class="col-md-4">
 			<div class="row">
-				<img src = "content/chronic-illness-psa.png" style="max-height:400px;" alt = "poster showing 10 people under a magnifying glass, revealing 6 people to be a different color to represent that 6 out of 10 people have a chronic illness."></a>
+				<img src = "content/chronic-illness-psa.png" style="max-height:400px;" alt = "poster showing 10 people under a magnifying glass, revealing 6 people to be a different color to represent that 6 out of 10 people have a chronic illness." onclick="document.getElementById('enlarged-img').src = this.src" data-bs-toggle="modal" data-bs-target="#enlarge-img-box"></a>
 			</div>
 		</div>
 	</div>
@@ -138,13 +138,13 @@
 		</div>
 		<div class="col-md-5">
 			<div class="row">
-				<img src = "content/ouraccess-icons.png" style="max-height:400px;" alt = "inspiration board showing potential palettes and sketches for the poster design and related stock photos related to the topic of chronic illness"></a>
+				<img src = "content/ouraccess-icons.png" style="max-height:400px;" alt = "inspiration board showing potential palettes and sketches for the poster design and related stock photos related to the topic of chronic illness" onclick="document.getElementById('enlarged-img').src = this.src" data-bs-toggle="modal" data-bs-target="#enlarge-img-box"></a>
 			</div>
 		</div>
         
 		<div class="col-md-3">
 			<div class="row">
-				<img src = "content/ouraccess-icons-map.png" style="max-height:400px;" alt = "poster showing 10 people under a magnifying glass, revealing 6 people to be a different color to represent that 6 out of 10 people have a chronic illness."></a>
+				<img src = "content/ouraccess-icons-map.png" style="max-height:400px;" alt = "poster showing 10 people under a magnifying glass, revealing 6 people to be a different color to represent that 6 out of 10 people have a chronic illness." onclick="document.getElementById('enlarged-img').src = this.src" data-bs-toggle="modal" data-bs-target="#enlarge-img-box"></a>
 			</div>
 		</div>
 	</div>
@@ -160,7 +160,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="row">
-				<img src = "content/dms_logo_price.png" style="max-height:400px;" alt = "A globe represented with green binary text forming the land on a black background.  Surrounding the globe are the words 'Digital Media Studies'"></a>
+				<img src = "content/dms_logo_price.png" style="max-height:400px;" alt = "A globe represented with green binary text forming the land on a black background.  Surrounding the globe are the words 'Digital Media Studies'" onclick="document.getElementById('enlarged-img').src = this.src" data-bs-toggle="modal" data-bs-target="#enlarge-img-box"></a>
 			</div>
 		</div>
 	</div>
@@ -178,17 +178,26 @@
 		</div>
 		<div class="col-md-5">
 			<div class="row">
-				<img src = "content/etTerra-moodboard-old.png" style="max-height:400px;" alt = "moodboard showing images of houseplants and cool blue and green colored circles"></a>
+				<img src = "content/etTerra-moodboard-old.png" style="max-height:400px;" alt = "moodboard showing images of houseplants and cool blue and green colored circles" onclick="document.getElementById('enlarged-img').src = this.src" data-bs-toggle="modal" data-bs-target="#enlarge-img-box"></a>
 			</div>
 		</div>
         
 		<div class="col-md-4">
 			<div class="row">
-				<img src = "content/etTerra_moodboard.png" style="max-height:400px;" alt = "moodboard showing images of houseplants and cool green and earthy brown colored circles"></a>
+				<img src = "content/etTerra_moodboard.png" style="max-height:400px;" alt = "moodboard showing images of houseplants and cool green and earthy brown colored circles" onclick="document.getElementById('enlarged-img').src = this.src" data-bs-toggle="modal" data-bs-target="#enlarge-img-box"></a>
 			</div>
 		</div>
+	</div>	
+	<div class="modal fade" id="enlarge-img-box" tabindex="-1" aria-labelledby="font-modal" aria-hidden="true" aria-label="pop-up box of enlarged image">
+		<div class="modal-dialog  modal-dialog-centered modal-lg modal-dialog-scrollable">
+		  <div class="modal-content">
+			<div class="modal-body" role="presentation">
+				<img id= "enlarged-img" src="" alt="enlarged image">
+			</div>
+		  </div>
+		</div>
+	  </div>   
 	</div>
-	
 	</div> <!--container-->
 
 <footer>
