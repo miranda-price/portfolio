@@ -76,5 +76,6 @@ h1, h2, h3, h4, p {color: #fff}
 footer, .row-home{
     margin-top: 2vh;
 	border: none;
-    color: #b46abd;
 }
+
+footer p {color: #c9c9c9;}
